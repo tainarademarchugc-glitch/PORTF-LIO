@@ -1,0 +1,5 @@
+PORTFOLIO TAINARA DEMARCH
+
+Pacote pronto para publicacao manual no Netlify.
+Envie este ZIP diretamente na area de Production deploys do projeto existente.
+O arquivo index.html esta na raiz e as midias estao na pasta assets.

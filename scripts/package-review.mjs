@@ -1,0 +1,7 @@
+import {readFile,writeFile,mkdir,cp} from 'node:fs/promises';
+import {resolve} from 'node:path';
+const root=process.cwd(),src=resolve(root,'netlify-dist'),dest=resolve(root,'.sites-runtime/review');
+await mkdir(dest,{recursive:true});let html=await readFile(resolve(src,'index.html'),'utf8');
+for(const m of [...html.matchAll(/<script[^>]*src="([^"]+)"[^>]*><\/script>/g)]){let js=await readFile(resolve(src,m[1].slice(1)),'utf8');js=js.replaceAll('/assets/','./assets/').replaceAll('/data/metrics.json','./data/metrics.json').replaceAll('</script','<\\/script');html=html.replace(m[0],()=>`<script type="module">${js}</script>`)}
+for(const m of [...html.matchAll(/<link[^>]*href="([^"]+\.css)"[^>]*>/g)]){const css=await readFile(resolve(src,m[1].slice(1)),'utf8');html=html.replace(m[0],()=>`<style>${css}</style>`)}
+html=html.replaceAll('="/assets/','="./assets/');await writeFile(resolve(dest,'ABRIR-PORTFOLIO.html'),html);await cp(resolve(root,'public/assets'),resolve(dest,'assets'),{recursive:true});await cp(resolve(root,'public/data'),resolve(dest,'data'),{recursive:true});await writeFile(resolve(dest,'LEIA-ME.txt'),'TAINARA DEMARCH — REVISÃO\n\n1. Extraia todo o ZIP para uma pasta.\n2. Abra ABRIR-PORTFOLIO.html no Chrome, Edge ou Safari.\n3. Mantenha a pasta assets junto do HTML para fotos e vídeos funcionarem.\n\nEsta cópia usa os mesmos componentes e métricas do projeto Sites.\nNão publica nem modifica o Netlify atual.\nPara instalar no Netlify após aprovação, use o pacote TAINARA-NETLIFY.zip.\n');console.log(dest);

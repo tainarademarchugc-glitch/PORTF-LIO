@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tainara Demarch | Criadora de Conteúdo, Modelo Comercial e UGC</title>
+  <meta name="description" content="Portfólio comercial de Tainara Demarch: criadora de conteúdo, modelo comercial e UGC. Moda, beleza, joias, óculos, campanhas e conteúdo para marcas em todo o Brasil." />
+  <meta name="theme-color" content="#f5f0eb" />
+  <meta property="og:title" content="Tainara Demarch | Criadora de Conteúdo, Modelo Comercial e UGC" />
+  <meta property="og:description" content="Conteúdo natural, presença comercial e experiência diante das câmeras para marcas, campanhas e redes sociais." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:url" content="https://tainarademarch.netlify.app/" />
+  <meta property="og:image" content="https://tainarademarch.netlify.app/assets/images/compartilhamento-tainara.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Tainara Demarch - criadora de conteúdo, modelo comercial e UGC" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://tainarademarch.netlify.app/" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root{
+      --marfim:#f5f0eb;--papel:#fffaf6;--tinta:#211d1b;--suave:#746a63;--vinho:#861f3d;--cobre:#b66a47;--areia:#ded2c8;--linha:rgba(33,29,27,.12);--verde:#465349;
+      --serif:"Cormorant Garamond",Georgia,serif;--sans:"Manrope",ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;--raio:26px;--sombra:0 22px 55px rgba(50,30,24,.10)
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--marfim);color:var(--tinta);font-family:var(--sans);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+    img,video{display:block;width:100%;height:auto}
+    a{color:inherit;text-decoration:none}
+    button{font:inherit}
+    .container{width:min(1180px,calc(100% - 40px));margin:auto}
+    .skip{position:absolute;left:-9999px}.skip:focus{left:16px;top:16px;z-index:999;background:white;padding:10px 14px;border-radius:10px}
+    .sobretitulo{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;font-weight:800;color:var(--vinho)}
+    h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:.97;margin:0}
+    h1{font-size:clamp(3.9rem,8.6vw,8rem);letter-spacing:-.055em}
+    h2{font-size:clamp(2.8rem,5.8vw,5.4rem);letter-spacing:-.04em}
+    h3{font-size:clamp(1.55rem,2.8vw,2.4rem);letter-spacing:-.02em}
+    p{margin:0;color:var(--suave)}
+    .destaque-texto{font-size:clamp(1.02rem,1.5vw,1.25rem);line-height:1.7;max-width:720px}
+    .botao{display:inline-flex;align-items:center;justify-content:center;gap:.65rem;padding:14px 20px;border-radius:999px;border:1px solid var(--tinta);font-weight:750;font-size:.91rem;transition:.2s;background:transparent;cursor:pointer}
+    .botao:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(33,29,27,.10)}
+    .botao.primario{background:var(--vinho);border-color:var(--vinho);color:#fff}.botao.escuro{background:var(--tinta);border-color:var(--tinta);color:#fff}.botao.claro{border-color:rgba(255,255,255,.72);color:#fff}
+    .ponto{width:7px;height:7px;border-radius:50%;background:var(--cobre);display:inline-block}
+    section{padding:104px 0}
+    .cabecalho-secao{display:grid;grid-template-columns:.52fr 1fr;gap:46px;align-items:end;margin-bottom:46px}.cabecalho-secao .destaque-texto{justify-self:end}
+    .revelar{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}.revelar.visivel{opacity:1;transform:none}
+
+    nav{position:sticky;top:0;z-index:80;background:rgba(245,240,235,.92);backdrop-filter:blur(16px);border-bottom:1px solid transparent;transition:.2s}nav.rolado{border-bottom-color:var(--linha)}
+    .nav-interno{height:74px;display:flex;align-items:center;justify-content:space-between;gap:24px}.marca{font-family:var(--serif);font-size:1.46rem;letter-spacing:-.02em}.marca small{display:block;font-family:var(--sans);font-size:.58rem;letter-spacing:.13em;text-transform:uppercase;color:var(--suave);margin-top:-2px}.links-nav{display:flex;align-items:center;gap:22px;font-size:.86rem}.links-nav a:not(.botao){color:#514943}.links-nav a:hover{color:var(--vinho)}.menu{display:none;background:none;border:0;padding:8px;font-size:1.45rem;cursor:pointer}
+
+    .capa{padding:50px 0 76px}.capa-grade{display:grid;grid-template-columns:1.08fr .92fr;gap:58px;align-items:center}.capa h1 span{display:block;color:var(--vinho)}.capa-texto{padding:18px 0}.capa-linha{font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:var(--vinho);margin-bottom:15px}.frase-capa{font-family:var(--serif);font-size:clamp(1.8rem,3.1vw,2.95rem);line-height:1.08;margin:27px 0 20px;max-width:700px}.acoes-capa{display:flex;flex-wrap:wrap;gap:11px;margin-top:28px}.localizacao{margin-top:24px;display:flex;align-items:center;gap:9px;font-size:.86rem;color:var(--suave)}
+    .foto-capa{position:relative}.foto-capa img{height:min(77vh,780px);object-fit:cover;object-position:center 35%;border-radius:34px;box-shadow:var(--sombra)}.identidade-mobile{display:none}.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.chip{padding:7px 11px;border:1px solid var(--linha);border-radius:999px;font-size:.76rem;color:#5a504a;background:rgba(255,255,255,.28)}
+
+    .metricas-topo{padding:24px 0 28px;background:var(--tinta);color:#fff}.metricas-grade{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.10);border-radius:22px;overflow:hidden}.metrica{padding:25px 24px;background:var(--tinta)}.metrica strong{display:block;font-family:var(--serif);font-size:clamp(2.2rem,4vw,3.5rem);line-height:1;color:#fff}.metrica span{display:block;color:#d4cac4;font-size:.78rem;margin-top:8px;line-height:1.45}.metrica small{display:block;color:#b99b90;font-size:.67rem;text-transform:uppercase;letter-spacing:.12em;margin-bottom:7px}
+
+    .sobre-novo{background:var(--papel)}.sobre-grade{display:grid;grid-template-columns:.88fr 1.12fr;gap:58px;align-items:center}.sobre-foto img{height:640px;object-fit:cover;object-position:center 38%;border-radius:28px}.sobre-texto h2{margin:10px 0 24px}.sobre-texto p+p{margin-top:16px}.prova-linha{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:28px}.prova{padding:18px;border:1px solid var(--linha);border-radius:18px;background:#fff}.prova strong{display:block;font-size:.87rem;color:var(--tinta)}.prova span{display:block;margin-top:5px;font-size:.74rem;color:var(--suave);line-height:1.5}
+
+    .apresentacao{background:var(--marfim)}.apresentacao-grade{display:grid;grid-template-columns:.86fr 1.14fr;gap:56px;align-items:center}.video-apresentacao{max-width:470px;margin:auto;background:#15110f;border-radius:28px;overflow:hidden;box-shadow:var(--sombra)}.video-apresentacao video{aspect-ratio:9/16;object-fit:cover;background:#15110f}.lista-valor{display:grid;gap:13px;margin-top:28px}.linha-valor{display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:start}.linha-valor b{width:30px;height:30px;border-radius:50%;background:var(--vinho);color:#fff;display:grid;place-items:center;font-size:.76rem}.linha-valor strong{display:block;font-size:.95rem}.linha-valor span{display:block;font-size:.82rem;color:var(--suave);margin-top:2px}
+
+    .trabalhos{background:var(--tinta);color:#fff}.trabalhos p{color:#cec3bc}.trabalhos .sobretitulo{color:#e1a083}.grade-videos{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.cartao-video{background:#171310;border:1px solid rgba(255,255,255,.09);border-radius:24px;overflow:hidden}.cartao-video video{aspect-ratio:9/16;object-fit:cover}.meta-video{padding:15px 16px 18px}.meta-video small{display:block;text-transform:uppercase;letter-spacing:.12em;font-size:.63rem;color:#c9bab1;margin-bottom:4px}.meta-video strong{font-family:var(--serif);font-weight:500;font-size:1.27rem}.video-extra{display:none}.grade-videos.aberto .video-extra{display:block}.mais-videos{display:flex;justify-content:center;margin-top:28px}.trabalhos .botao{border-color:rgba(255,255,255,.58);color:#fff}
+
+    .modelo{background:#ede5de}.modelo-grade{display:grid;grid-template-columns:.82fr 1.18fr;gap:50px;align-items:start}.modelo-copy{position:sticky;top:110px}.modelo-copy h2{margin:10px 0 20px}.campanhas-lista{display:grid;gap:12px;margin-top:24px}.campanha-item{padding:16px 0;border-top:1px solid rgba(33,29,27,.14)}.campanha-item strong{display:block;font-size:.9rem}.campanha-item span{font-size:.8rem;color:var(--suave)}.modelo-fotos{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:430px 430px;gap:14px}.modelo-fotos figure{margin:0;border-radius:22px;overflow:hidden}.modelo-fotos figure:first-child{grid-row:1/3}.modelo-fotos img{height:100%;object-fit:cover}.marcas-texto{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.marca-pill{background:#fff;border:1px solid rgba(33,29,27,.12);padding:9px 12px;border-radius:999px;font-size:.78rem;font-weight:750}
+
+    .recorrencia{background:var(--papel)}.recorrencia-grade{display:grid;grid-template-columns:.95fr 1.05fr;gap:52px;align-items:center}.recorrencia-fotos{display:grid;grid-template-columns:1fr 1fr;gap:12px}.recorrencia-fotos figure{margin:0;border-radius:22px;overflow:hidden}.recorrencia-fotos figure:first-child{grid-row:span 2}.recorrencia-fotos img{height:100%;min-height:230px;object-fit:cover}.recorrencia-copy h2{margin:10px 0 20px}.selo-recorrencia{display:inline-flex;align-items:center;gap:8px;margin-top:22px;padding:9px 12px;border-radius:999px;background:rgba(134,31,61,.08);color:var(--vinho);font-weight:800;font-size:.78rem}.selo-recorrencia::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--vinho)}
+
+    .audiencia{background:var(--tinta);color:#fff}.audiencia p{color:#cfc4bc}.audiencia .sobretitulo{color:#e1a083}.audiencia-grid{display:grid;grid-template-columns:1.06fr .94fr;gap:24px}.painel{border:1px solid rgba(255,255,255,.12);border-radius:25px;padding:28px;background:rgba(255,255,255,.035)}.painel h3{margin-bottom:18px}.metricas-instagram{display:grid;grid-template-columns:1fr 1fr;gap:12px}.mini-metrica{padding:17px;background:rgba(255,255,255,.055);border-radius:16px}.mini-metrica strong{display:block;font-family:var(--serif);font-size:2.05rem;color:#fff;line-height:1}.mini-metrica span{display:block;color:#cfc4bc;font-size:.72rem;margin-top:7px;line-height:1.4}.barras{display:grid;gap:13px;margin-top:20px}.barra-cab{display:flex;justify-content:space-between;gap:12px;font-size:.78rem}.barra-trilho{height:8px;background:rgba(255,255,255,.10);border-radius:99px;overflow:hidden;margin-top:7px}.barra-preenchimento{height:100%;border-radius:99px;background:#d7a28b}.detalhes{margin-top:18px}.detalhes summary{cursor:pointer;color:#fff;font-size:.82rem;font-weight:700}.idades{display:grid;gap:8px;margin-top:13px}.idade-linha{display:grid;grid-template-columns:62px 1fr 46px;gap:10px;align-items:center;font-size:.71rem;color:#cfc4bc}.idade-linha .mini-trilho{height:6px;background:rgba(255,255,255,.10);border-radius:99px;overflow:hidden}.idade-linha i{display:block;height:100%;background:#c9876c;border-radius:99px}.tiktok-bloco{margin-top:18px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12)}.tiktok-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px}.tiktok-head strong{font-family:var(--serif);font-size:2.5rem}.tiktok-head span{font-size:.72rem;color:#cfc4bc}.tiktok-nota{margin-top:12px;font-size:.78rem;line-height:1.6;color:#cfc4bc}.shop{display:inline-block;margin-top:12px;padding:7px 10px;border-radius:999px;background:rgba(255,255,255,.08);font-size:.7rem;font-weight:700;color:#fff}
+
+    .galeria{background:var(--marfim)}.galeria-intro{text-align:center;max-width:780px;margin:0 auto 40px}.galeria-intro h2{margin:10px 0 18px}.mosaico{columns:4 220px;column-gap:12px}.mosaico figure{break-inside:avoid;margin:0 0 12px;border-radius:18px;overflow:hidden;background:#ddd}.mosaico button{all:unset;display:block;width:100%;cursor:zoom-in}.mosaico img{width:100%;height:auto}.galeria-extra{display:none}.mosaico.aberto .galeria-extra{display:block}.acoes-galeria{display:flex;justify-content:center;margin-top:24px}
+
+    .servicos{background:var(--papel)}.grade-servicos{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.servico{border:1px solid var(--linha);border-radius:22px;padding:26px;background:#fff;min-height:260px}.servico .numero{font-size:.66rem;letter-spacing:.12em;color:var(--vinho);font-weight:800;margin-bottom:28px}.servico h3{margin-bottom:14px}.servico ul{padding-left:17px;margin:0;color:var(--suave);font-size:.83rem}.servico li+li{margin-top:6px}.nota-comercial{margin-top:20px;padding:18px 20px;border-left:3px solid var(--vinho);background:#f6efec;border-radius:0 14px 14px 0;font-size:.8rem;color:#675c56}
+
+    .processo{background:var(--marfim)}.grade-processo{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.passo{padding:24px;border:1px solid var(--linha);border-radius:20px;background:rgba(255,255,255,.32);min-height:225px}.passo small{font-size:.65rem;letter-spacing:.11em;color:var(--vinho);font-weight:800}.passo h3{margin:24px 0 10px}.passo p{font-size:.8rem}
+
+    .contato{background:var(--vinho);color:#fff;padding:90px 0}.contato .sobretitulo{color:#eec4cf}.contato h2{max-width:820px;margin:9px 0 18px}.contato p{color:#f2dce2;max-width:720px}.acoes-contato{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}.contato .botao.primario{background:#fff;color:var(--vinho);border-color:#fff}.contatos-sociais{display:flex;flex-wrap:wrap;gap:18px;margin-top:30px;font-size:.82rem;color:#f5dde4}
+
+    footer{padding:34px 0;background:#1a1614;color:#fff}.rodape-grade{display:flex;justify-content:space-between;gap:30px;align-items:flex-start}.nome-rodape{font-family:var(--serif);font-size:1.5rem}.rodape-grade p{font-size:.76rem;color:#bdb2ab}.rodape-mini{font-size:.7rem;color:#8e827a;margin-top:5px}.links-rodape{display:grid;gap:6px;text-align:right;font-size:.75rem;color:#cfc4bc}
+
+    .visualizador{position:fixed;inset:0;z-index:120;display:none;align-items:center;justify-content:center;background:rgba(13,10,9,.94);padding:40px}.visualizador.aberto{display:flex}.visualizador img{max-width:min(92vw,950px);max-height:84vh;width:auto;height:auto;border-radius:12px}.fechar-visualizador{position:absolute;right:24px;top:18px;background:none;border:0;color:#fff;font-size:2rem;cursor:pointer}.legenda-visualizador{position:absolute;bottom:18px;left:0;right:0;text-align:center;color:#ddd;font-size:.78rem}
+
+    @media(max-width:980px){
+      .links-nav{display:none;position:absolute;top:74px;left:0;right:0;padding:18px 20px 22px;background:var(--marfim);border-bottom:1px solid var(--linha);flex-direction:column;align-items:stretch}.links-nav.aberto{display:flex}.menu{display:block}.capa-grade{grid-template-columns:1fr;gap:28px}.foto-capa{order:-1}.foto-capa img{height:min(70vh,720px);border-radius:25px}.identidade-mobile{display:block;position:absolute;left:16px;right:16px;bottom:16px;padding:14px 16px;border-radius:16px;background:rgba(33,29,27,.78);backdrop-filter:blur(10px);color:#fff}.identidade-mobile strong{display:block;font-family:var(--serif);font-size:1.45rem}.identidade-mobile span{display:block;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:#e8deda}.metricas-grade{grid-template-columns:1fr 1fr}.sobre-grade,.apresentacao-grade,.modelo-grade,.recorrencia-grade,.audiencia-grid{grid-template-columns:1fr}.modelo-copy{position:static}.modelo-fotos{grid-template-rows:360px 360px}.grade-videos{grid-template-columns:repeat(2,1fr)}.cabecalho-secao{grid-template-columns:1fr;gap:18px}.cabecalho-secao .destaque-texto{justify-self:start}.grade-processo{grid-template-columns:1fr 1fr}.sobre-foto img{height:580px}.prova-linha{grid-template-columns:1fr}.recorrencia-fotos{order:2}.mosaico{columns:3 180px}.rodape-grade{flex-direction:column}.links-rodape{text-align:left}
+    }
+    @media(max-width:640px){
+      .container{width:min(100% - 28px,1180px)}section{padding:76px 0}.nav-interno{height:68px}.marca{font-size:1.3rem}.marca small{font-size:.52rem}.links-nav{top:68px}.capa{padding:14px 0 58px}.foto-capa img{height:62vh;min-height:480px;object-position:center 30%}.capa-texto{padding:0}.capa-linha{font-size:.66rem}.frase-capa{margin:20px 0 16px;font-size:2rem}.destaque-texto{font-size:.96rem}.chips{margin-top:16px}.metricas-topo{padding:14px 0}.metricas-grade{grid-template-columns:1fr 1fr}.metrica{padding:18px 14px}.metrica strong{font-size:2.15rem}.metrica span{font-size:.66rem}.metrica small{font-size:.59rem}.sobre-foto img{height:480px}.video-apresentacao{max-width:370px}.grade-videos{grid-template-columns:1fr 1fr;gap:10px}.cartao-video{border-radius:16px}.meta-video{padding:11px}.meta-video strong{font-size:1.05rem}.meta-video small{font-size:.55rem}.modelo-fotos{grid-template-columns:1fr 1fr;grid-template-rows:300px 300px}.modelo-fotos figure:first-child{grid-row:1/3}.recorrencia-fotos{grid-template-columns:1fr 1fr}.recorrencia-fotos figure:first-child{grid-row:span 2}.painel{padding:20px}.metricas-instagram{grid-template-columns:1fr 1fr}.mini-metrica strong{font-size:1.7rem}.mosaico{columns:2 145px;column-gap:9px}.mosaico figure{margin-bottom:9px;border-radius:14px}.grade-servicos{grid-template-columns:1fr}.grade-processo{grid-template-columns:1fr}.passo{min-height:190px}.contato{padding:74px 0}.acoes-contato .botao{width:100%}.contatos-sociais{display:grid;gap:8px}.visualizador{padding:20px}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.revelar{opacity:1;transform:none;transition:none}.botao{transition:none}}
+  </style>
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+<nav id="nav">
+  <div class="container nav-interno">
+    <a class="marca" href="#inicio">Tainara Demarch<small>Criadora de conteúdo • Modelo comercial • UGC</small></a>
+    <button class="menu" id="botaoMenu" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <div class="links-nav" id="linksNav">
+      <a href="#trabalhos">Trabalhos</a><a href="#modelo">Modelo</a><a href="#audiencia">Audiência</a><a href="#servicos">Serviços</a>
+      <a class="botao escuro" href="https://wa.me/5548998170835?text=Ol%C3%A1%2C%20Tainara!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto%20para%20nossa%20marca." target="_blank" rel="noopener">Falar sobre um projeto</a>
+    </div>
+  </div>
+</nav>
+
+<main id="conteudo">
+  <header class="capa" id="inicio">
+    <div class="container capa-grade">
+      <div class="capa-texto revelar">
+        <div class="capa-linha">Criadora de Conteúdo • Modelo Comercial • UGC • Presença Digital</div>
+        <h1>Tainara <span>Demarch</span></h1>
+        <div class="frase-capa">Leve, espontâneo e criativo. Comunicação que aproxima.</div>
+        <p class="destaque-texto">Uno experiência em campanhas e moda à criação de conteúdo pensado para redes sociais, anúncios e marcas. Produzo vídeos e fotos que apresentam produtos com naturalidade, estética e presença diante da câmera.</p>
+        <div class="chips" aria-label="Áreas principais"><span class="chip">Moda</span><span class="chip">Beleza</span><span class="chip">Cuidados com o cabelo</span><span class="chip">Joias e acessórios</span><span class="chip">Óculos</span><span class="chip">Estilo de vida</span></div>
+        <div class="acoes-capa"><a class="botao primario" href="#trabalhos">Ver trabalhos</a><a class="botao" href="mailto:tainarademarchugc@gmail.com">Solicitar proposta</a></div>
+        <div class="localizacao"><span class="ponto"></span> Araranguá, SC • Disponível para projetos e viagens em todo o Brasil</div>
+      </div>
+      <div class="foto-capa revelar">
+        <img src="assets/images/capa-tainara-demarch.webp" alt="Tainara Demarch sorrindo em estúdio de criação" fetchpriority="high" />
+        <div class="identidade-mobile"><strong>Tainara Demarch</strong><span>Criadora de conteúdo • Modelo comercial • UGC</span></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="metricas-topo" aria-label="Principais números do Instagram">
+    <div class="container metricas-grade">
+      <div class="metrica"><small>Instagram</small><strong>128,6 mil</strong><span>visualizações nos últimos 30 dias</span></div>
+      <div class="metrica"><small>Instagram</small><strong>6.187</strong><span>seguidores</span></div>
+      <div class="metrica"><small>Stories</small><strong>101 mil</strong><span>visualizações nos últimos 30 dias</span></div>
+      <div class="metrica"><small>Audiência</small><strong>96%</strong><span>localizada no Brasil</span></div>
+    </div>
+  </section>
+
+  <section class="sobre-novo" id="sobre">
+    <div class="container sobre-grade">
+      <div class="sobre-foto revelar"><img src="assets/images/nova-16-criacao-estudio.webp" alt="Tainara em estúdio com celular e notebook durante produção de conteúdo" loading="lazy" /></div>
+      <div class="sobre-texto revelar">
+        <div class="sobretitulo">Uma atuação que se complementa</div>
+        <h2>Naturalidade para criar. Presença para representar.</h2>
+        <p class="destaque-texto">Minha trajetória une dois lados que trabalham juntos: experiência como modelo comercial e criação de conteúdo para marcas. Anos diante das câmeras me deram desenvoltura, leitura de imagem e facilidade para interpretar diferentes propostas.</p>
+        <p>Já participei de campanhas comerciais, editoriais, catálogos de moda e produções sazonais, inclusive para lojas de roupas no atacado. Hoje levo essa experiência para vídeos e fotos pensados para o ambiente digital, unindo roteiro, captação, edição e uma comunicação próxima.</p>
+        <div class="prova-linha">
+          <div class="prova"><strong>Modelo comercial</strong><span>Campanhas, moda, editoriais, catálogos e fotografia comercial.</span></div>
+          <div class="prova"><strong>Criadora de conteúdo</strong><span>Produção para redes sociais, produto, campanhas e comunicação de marca.</span></div>
+          <div class="prova"><strong>Experiência de câmera</strong><span>Trajetória como modelo e título de Miss Lauro Müller - SC como parte da formação de presença e desenvoltura.</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="apresentacao">
+    <div class="container apresentacao-grade">
+      <div class="video-apresentacao revelar"><video controls playsinline preload="metadata" poster="assets/posters/video-apresentacao.jpg" aria-label="Vídeo de apresentação com seleção de trabalhos de Tainara Demarch"><source src="assets/videos/video-apresentacao.mp4" type="video/mp4" /></video></div>
+      <div class="revelar">
+        <div class="sobretitulo">Vídeo de apresentação</div>
+        <h2>Uma visão rápida do que entrego diante das câmeras.</h2>
+        <p class="destaque-texto" style="margin-top:20px">Produto, fala direta, joias, beleza, rotina e interação em diferentes contextos. A proposta é mostrar versatilidade sem perder a mesma assinatura: presença visual, naturalidade e clareza de comunicação.</p>
+        <div class="lista-valor">
+          <div class="linha-valor"><b>1</b><div><strong>Experiência comercial</strong><span>Conteúdo para marcas e participação em campanhas.</span></div></div>
+          <div class="linha-valor"><b>2</b><div><strong>Produção completa</strong><span>Conceito, roteiro, captação e edição.</span></div></div>
+          <div class="linha-valor"><b>3</b><div><strong>Audiência própria</strong><span>Presença digital que complementa a entrega quando a publicação no perfil fizer parte do projeto.</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trabalhos" id="trabalhos">
+    <div class="container">
+      <div class="cabecalho-secao revelar"><div><div class="sobretitulo">Portfólio em vídeo</div><h2>Conteúdo que coloca o produto dentro da cena.</h2></div><p class="destaque-texto">Uma seleção de trabalhos que mostra fala, produto, beleza, acessórios, gastronomia e situações reais. Cada formato pode ser adaptado ao objetivo e à linguagem da marca.</p></div>
+      <div class="grade-videos" id="gradeVideos">
+        <article class="cartao-video revelar"><video controls playsinline preload="none" poster="assets/posters/otica-visual-conteudo.jpg"><source src="assets/videos/otica-visual-conteudo.mp4" type="video/mp4" /></video><div class="meta-video"><small>Visual Ótica Joalheria</small><strong>Conteúdo de marca</strong></div></article>
+        <article class="cartao-video revelar"><video controls playsinline preload="none" poster="assets/posters/cuidados-cabelo-ugc-v2.jpg"><source src="assets/videos/cuidados-cabelo-ugc-v2.mp4" type="video/mp4" /></video><div class="meta-video"><small>Beleza</small><strong>Cuidados com o cabelo</strong></div></article>
+        <article class="cartao-video revelar"><video controls playsinline preload="none" poster="assets/posters/talking-head-ad.jpg"><source src="assets/videos/talking-head-ad.mp4" type="video/mp4" /></video><div class="meta-video"><small>Fala direta à câmera</small><strong>Conteúdo comercial</strong></div></article>
+        <article class="cartao-video revelar"><video controls playsinline preload="none" poster="assets/posters/joias-estilo.jpg"><source src="assets/videos/joias-estilo.mp4" type="video/mp4" /></video><div class="meta-video"><small>Joias e acessórios</small><strong>Produto e estilo</strong></div></article>
+        <article class="cartao-video revelar"><video controls playsinline preload="none" poster="assets/posters/product-experience.jpg"><source src="assets/videos/product-experience.mp4" type="video/mp4" /></video><div class="meta-video"><small>Produto e gastronomia</small><strong>Experiência em cena</strong></div></article>
+        <article class="cartao-video revelar"><video controls playsinline preload="none" poster="assets/posters/couple-lifestyle.jpg"><source src="assets/videos/couple-lifestyle.mp4" type="video/mp4" /></video><div class="meta-video"><small>Casal</small><strong>Estilo de vida</strong></div></article>
+        <article class="cartao-video video-extra"><video controls playsinline preload="none" poster="assets/posters/rotina-gastronomia.jpg"><source src="assets/videos/rotina-gastronomia-portfolio.mp4" type="video/mp4" /></video><div class="meta-video"><small>Rotina e gastronomia</small><strong>Conteúdo espontâneo</strong></div></article>
+      </div>
+      <div class="mais-videos"><button class="botao" type="button" id="botaoMaisVideos" aria-expanded="false">Ver mais trabalhos</button></div>
+    </div>
+  </section>
+
+  <section class="modelo" id="modelo">
+    <div class="container modelo-grade">
+      <div class="modelo-copy revelar">
+        <div class="sobretitulo">Modelo comercial e campanhas</div>
+        <h2>Experiência que começou antes do conteúdo digital.</h2>
+        <p class="destaque-texto">Atuação profissional em campanhas comerciais, moda, editoriais, catálogos e produções para varejo e atacado. Essa bagagem amplia minha capacidade de receber direção, sustentar diferentes propostas e valorizar produto, roupa e imagem de marca.</p>
+        <div class="campanhas-lista">
+          <div class="campanha-item"><strong>Campanhas sazonais</strong><span>Inverno, verão, primavera e outono.</span></div>
+          <div class="campanha-item"><strong>Moda e varejo</strong><span>Produções para lojas de roupas, inclusive operações de atacado.</span></div>
+          <div class="campanha-item"><strong>Formatos</strong><span>Campanha, editorial, catálogo de moda, fotografia e vídeo comercial.</span></div>
+        </div>
+        <div class="marcas-texto" aria-label="Marcas com experiência comprovada"><span class="marca-pill">Vuk Jeans</span><span class="marca-pill">Charlott</span><span class="marca-pill">Visual Ótica Joalheria</span></div>
+      </div>
+      <div class="modelo-fotos revelar">
+        <figure><img src="assets/images/fashion-pink.webp" alt="Tainara em produção editorial de moda" loading="lazy" /></figure>
+        <figure><img src="assets/images/nova-01-moda-urbana.webp" alt="Tainara em produção de moda urbana" loading="lazy" /></figure>
+        <figure><img src="assets/images/fashion-street-1.webp" alt="Tainara em fotografia comercial de moda na rua" loading="lazy" /></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="recorrencia" id="marcas">
+    <div class="container recorrencia-grade">
+      <div class="recorrencia-fotos revelar">
+        <figure><img src="assets/images/nova-05-otica-jornal.webp" alt="Tainara em produção para Visual Ótica Joalheria" loading="lazy" /></figure>
+        <figure><img src="assets/images/nova-04-otica-cafe.webp" alt="Tainara usando óculos em produção de conteúdo" loading="lazy" /></figure>
+        <figure><img src="assets/images/nova-12-oculos-duplo.webp" alt="Tainara apresentando modelos de óculos" loading="lazy" /></figure>
+      </div>
+      <div class="recorrencia-copy revelar">
+        <div class="sobretitulo">Parceria recorrente</div>
+        <h2>Visual Ótica Joalheria</h2>
+        <p class="destaque-texto">Produção recorrente de conteúdo para a marca, com participação aproximadamente mensal em gravações relacionadas a óculos, joias e acessórios.</p>
+        <p style="margin-top:16px">A continuidade das produções permite trabalhar diferentes produtos e linguagens ao longo do tempo, mantendo familiaridade com a identidade da marca e consistência diante da câmera.</p>
+        <div class="selo-recorrencia">Produção recorrente • aproximadamente mensal</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="audiencia" id="audiencia">
+    <div class="container">
+      <div class="cabecalho-secao revelar"><div><div class="sobretitulo">Presença digital</div><h2>Audiência própria como ativo complementar.</h2></div><p class="destaque-texto">A criação de UGC não depende do tamanho da audiência. Quando a estratégia envolve publicação nos meus perfis, os dados abaixo ajudam a mostrar quem acompanha o conteúdo e como os canais vêm evoluindo.</p></div>
+      <div class="audiencia-grid">
+        <div class="painel revelar">
+          <h3>Instagram</h3>
+          <div class="metricas-instagram">
+            <div class="mini-metrica"><strong>6.187</strong><span>seguidores</span></div>
+            <div class="mini-metrica"><strong>128.650</strong><span>visualizações • últimos 30 dias</span></div>
+            <div class="mini-metrica"><strong>3.850</strong><span>interações • últimos 30 dias</span></div>
+            <div class="mini-metrica"><strong>512</strong><span>visitas ao perfil • últimos 30 dias</span></div>
+          </div>
+          <div class="campanhas-lista" style="margin-top:18px">
+            <div class="campanha-item" style="border-color:rgba(255,255,255,.12)"><strong style="color:#fff">Stories</strong><span style="color:#cfc4bc">101 mil visualizações • últimos 30 dias</span></div>
+            <div class="campanha-item" style="border-color:rgba(255,255,255,.12)"><strong style="color:#fff">Reels</strong><span style="color:#cfc4bc">17 mil visualizações • últimos 30 dias</span></div>
+            <div class="campanha-item" style="border-color:rgba(255,255,255,.12)"><strong style="color:#fff">Posts</strong><span style="color:#cfc4bc">10 mil visualizações • últimos 30 dias</span></div>
+          </div>
+          <div class="barras">
+            <div><div class="barra-cab"><span>Audiência feminina</span><strong>65,8%</strong></div><div class="barra-trilho"><div class="barra-preenchimento" style="width:65.8%"></div></div></div>
+            <div><div class="barra-cab"><span>Entre 25 e 44 anos</span><strong>69,8%</strong></div><div class="barra-trilho"><div class="barra-preenchimento" style="width:69.8%"></div></div></div>
+            <div><div class="barra-cab"><span>Localizada no Brasil</span><strong>96%</strong></div><div class="barra-trilho"><div class="barra-preenchimento" style="width:96%"></div></div></div>
+          </div>
+          <details class="detalhes"><summary>Ver distribuição etária completa</summary><div class="idades">
+            <div class="idade-linha"><span>13-17</span><span class="mini-trilho"><i style="width:0.6%"></i></span><b>0,6%</b></div>
+            <div class="idade-linha"><span>18-24</span><span class="mini-trilho"><i style="width:5.8%"></i></span><b>5,8%</b></div>
+            <div class="idade-linha"><span>25-34</span><span class="mini-trilho"><i style="width:35.7%"></i></span><b>35,7%</b></div>
+            <div class="idade-linha"><span>35-44</span><span class="mini-trilho"><i style="width:34.1%"></i></span><b>34,1%</b></div>
+            <div class="idade-linha"><span>45-54</span><span class="mini-trilho"><i style="width:15.9%"></i></span><b>15,9%</b></div>
+            <div class="idade-linha"><span>55-64</span><span class="mini-trilho"><i style="width:5.9%"></i></span><b>5,9%</b></div>
+            <div class="idade-linha"><span>65+</span><span class="mini-trilho"><i style="width:1.9%"></i></span><b>1,9%</b></div>
+          </div></details>
+        </div>
+        <div class="painel revelar">
+          <h3>TikTok em crescimento</h3>
+          <p>Perfil recente, com aproximadamente um mês de atividade, apresentado pelo ritmo de crescimento e familiaridade com conteúdo vertical.</p>
+          <div class="tiktok-bloco">
+            <div class="tiktok-head"><div><strong>555</strong><span> seguidores atuais</span></div><span>perfil recente</span></div>
+            <div class="metricas-instagram" style="margin-top:16px">
+              <div class="mini-metrica"><strong>3.741</strong><span>visualizações • últimos 7 dias</span></div>
+              <div class="mini-metrica"><strong>+287</strong><span>seguidores líquidos • últimos 7 dias</span></div>
+              <div class="mini-metrica"><strong>634</strong><span>curtidas • últimos 7 dias</span></div>
+              <div class="mini-metrica"><strong>1 mês</strong><span>aproximadamente de atividade</span></div>
+            </div>
+            <div class="shop">Perfil habilitado para TikTok Shop</div>
+            <p class="tiktok-nota">Os dados representam períodos recentes e podem mudar conforme a evolução dos perfis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="galeria" id="galeria">
+    <div class="container">
+      <div class="galeria-intro revelar"><div class="sobretitulo">Portfólio fotográfico</div><h2>Moda, produto, beleza e presença de câmera.</h2><p>Uma seleção enxuta abre a galeria. O restante do acervo continua disponível para mostrar variedade sem transformar a primeira leitura em uma avalanche de fotos.</p></div>
+      <div class="mosaico" id="mosaicoGaleria">
+        <figure><button data-legenda="Moda urbana"><img src="assets/images/nova-01-moda-urbana.webp" alt="Tainara em produção de moda urbana" loading="lazy" /></button></figure>
+        <figure><button data-legenda="Beleza"><img src="assets/images/beauty-lips.webp" alt="Tainara aplicando produto labial" loading="lazy" /></button></figure>
+        <figure><button data-legenda="Óculos e acessórios"><img src="assets/images/nova-12-oculos-duplo.webp" alt="Tainara apresentando dois modelos de óculos" loading="lazy" /></button></figure>
+        <figure><button data-legenda="Visual Ótica Joalheria"><img src="assets/images/nova-05-otica-jornal.webp" alt="Tainara em produção para Visual Ótica Joalheria" loading="lazy" /></button></figure>
+        <figure><button data-legenda="Moda editorial"><img src="assets/images/fashion-pink.webp" alt="Tainara em ensaio editorial de moda" loading="lazy" /></button></figure>
+        <figure><button data-legenda="Estilo de vida"><img src="assets/images/nova-09-lifestyle-cafe.webp" alt="Tainara sorrindo com bebida em ambiente urbano" loading="lazy" /></button></figure>
+        <figure><button data-legenda="Óculos"><img src="assets/images/nova-07-oculos-close.webp" alt="Retrato de Tainara usando óculos escuros" loading="lazy" /></button></figure>
+        <figure><button data-legenda="Estilo de vida"><img src="assets/images/lifestyle-wine.webp" alt="Tainara em ambiente interno com produção em vinho" loading="lazy" /></button></figure>
+        <figure><button data-legenda="Criação em estúdio"><img src="assets/images/nova-16-criacao-estudio.webp" alt="Tainara em estúdio de produção de conteúdo" loading="lazy" /></button></figure>
+        <figure><button data-legenda="Ótica Visual"><img src="assets/images/nova-04-otica-cafe.webp" alt="Tainara com óculos em ambiente de café" loading="lazy" /></button></figure>
+        <figure><button data-legenda="Moda urbana"><img src="assets/images/fashion-street-1.webp" alt="Tainara em produção de moda na rua" loading="lazy" /></button></figure>
+        <figure><button data-legenda="Retrato"><img src="assets/images/portrait-hero.webp" alt="Retrato sorridente de Tainara" loading="lazy" /></button></figure>
+        <figure class="galeria-extra"><button data-legenda="Moda urbana"><img src="assets/images/nova-02-moda-urbana.webp" alt="Tainara caminhando em produção de moda" loading="lazy" /></button></figure>
+        <figure class="galeria-extra"><button data-legenda="Moda urbana"><img src="assets/images/nova-03-moda-urbana.webp" alt="Tainara caminhando em ambiente urbano" loading="lazy" /></button></figure>
+        <figure class="galeria-extra"><button data-legenda="Moda e café"><img src="assets/images/nova-06-moda-cafe.webp" alt="Tainara em produção de moda diante de cafeteria" loading="lazy" /></button></figure>
+        <figure class="galeria-extra"><button data-legenda="Óculos"><img src="assets/images/eyewear-black.webp" alt="Tainara em retrato com óculos de armação preta" loading="lazy" /></button></figure>
+        <figure class="galeria-extra"><button data-legenda="Óculos"><img src="assets/images/eyewear-light.webp" alt="Tainara usando óculos de armação clara" loading="lazy" /></button></figure>
+        <figure class="galeria-extra"><button data-legenda="Estilo de vida"><img src="assets/images/nova-10-lifestyle-vermelho.webp" alt="Tainara com camisa vermelha em conteúdo de estilo de vida" loading="lazy" /></button></figure>
+        <figure class="galeria-extra"><button data-legenda="Estilo de vida"><img src="assets/images/nova-11-lifestyle-vermelho.webp" alt="Tainara sorrindo com camisa vermelha" loading="lazy" /></button></figure>
+        <figure class="galeria-extra"><button data-legenda="Café e editorial"><img src="assets/images/nova-13-cafe-editorial.webp" alt="Tainara com xícara de café em produção editorial" loading="lazy" /></button></figure>
+        <figure class="galeria-extra"><button data-legenda="Criação"><img src="assets/images/nova-14-criacao-estudio.webp" alt="Tainara em estúdio com celular e tablet" loading="lazy" /></button></figure>
+        <figure class="galeria-extra"><button data-legenda="Estilo de vida profissional"><img src="assets/images/nova-08-lifestyle-notebook.webp" alt="Tainara trabalhando em notebook em cafeteria" loading="lazy" /></button></figure>
+        <figure class="galeria-extra"><button data-legenda="Moda"><img src="assets/images/fashion-street-2.webp" alt="Tainara em produção urbana preta" loading="lazy" /></button></figure>
+        <figure class="galeria-extra"><button data-legenda="Bastidores"><img src="assets/images/behind-scenes-1.webp" alt="Tainara em bastidores de ensaio" loading="lazy" /></button></figure>
+        <figure class="galeria-extra"><button data-legenda="Bastidores"><img src="assets/images/behind-scenes-2.webp" alt="Tainara em estúdio de produção" loading="lazy" /></button></figure>
+        <figure class="galeria-extra"><button data-legenda="Retrato"><img src="assets/images/nova-17-retrato-sorrindo.webp" alt="Retrato sorridente de Tainara" loading="lazy" /></button></figure>
+        <figure class="galeria-extra"><button data-legenda="Criação em estúdio"><img src="assets/images/capa-tainara-demarch.webp" alt="Tainara sorrindo em estúdio de criação" loading="lazy" /></button></figure>
+      </div>
+      <div class="acoes-galeria"><button class="botao" id="botaoGaleria" type="button" aria-expanded="false">Ver galeria completa</button></div>
+    </div>
+  </section>
+
+  <section class="servicos" id="servicos">
+    <div class="container">
+      <div class="cabecalho-secao revelar"><div><div class="sobretitulo">Serviços</div><h2>Da criação à presença em campanha.</h2></div><p class="destaque-texto">Formatos para marcas que precisam de conteúdo digital, imagem comercial ou uma profissional que consiga unir os dois.</p></div>
+      <div class="grade-servicos">
+        <article class="servico revelar"><div class="numero">01 / CONTEÚDO</div><h3>UGC e redes sociais</h3><ul><li>Demonstração e avaliação de produto</li><li>Fala direta à câmera</li><li>Abertura de produto e tutorial</li><li>Narrativa, rotina e locução</li><li>Reels, TikTok e conteúdo para TikTok Shop</li></ul></article>
+        <article class="servico revelar"><div class="numero">02 / CAMPANHAS</div><h3>Modelo comercial</h3><ul><li>Campanhas publicitárias</li><li>Moda e campanhas sazonais</li><li>Catálogos de moda e editoriais</li><li>Fotografia comercial</li><li>Vídeo comercial e demonstração de produto</li></ul></article>
+        <article class="servico revelar"><div class="numero">03 / CRIAÇÃO</div><h3>Produção criativa</h3><ul><li>Conceito e roteiro</li><li>Captação de foto e vídeo</li><li>Edição e legendas</li><li>Conteúdo orgânico</li><li>Conteúdo para anúncios e campanhas digitais</li></ul></article>
+        <article class="servico revelar"><div class="numero">04 / PRESENÇA DIGITAL</div><h3>Publicação nos perfis</h3><ul><li>Projetos com publicação no Instagram, quando aplicável</li><li>Projetos com publicação no TikTok, quando aplicável</li><li>Integração entre conteúdo da marca e audiência própria</li><li>Formatos comerciais definidos conforme briefing</li></ul></article>
+      </div>
+      <div class="nota-comercial">Direitos de uso, mídia paga, exclusividade, prazo de entrega e revisões são alinhados conforme o escopo de cada projeto. Não há tabela fixa publicada no portfólio.</div>
+    </div>
+  </section>
+
+  <section class="processo" id="processo">
+    <div class="container">
+      <div class="cabecalho-secao revelar"><div><div class="sobretitulo">Processo</div><h2>Da ideia à entrega.</h2></div><p class="destaque-texto">Um fluxo direto para transformar o objetivo da marca em conteúdo ou campanha com direção, clareza e acabamento.</p></div>
+      <div class="grade-processo">
+        <article class="passo revelar"><small>01 / DIRECIONAMENTO</small><h3>Entendimento</h3><p>Briefing, objetivo, público, referências e contexto da marca.</p></article>
+        <article class="passo revelar"><small>02 / CONCEITO</small><h3>Planejamento</h3><p>Abordagem, roteiro, cenas e linguagem adequados ao projeto.</p></article>
+        <article class="passo revelar"><small>03 / PRODUÇÃO</small><h3>Execução</h3><p>Gravação, fotografia, direção de cena e edição quando fizer parte da entrega.</p></article>
+        <article class="passo revelar"><small>04 / ENTREGA</small><h3>Finalização</h3><p>Material final conforme formatos, prazo e condições acordadas em proposta.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato" id="contato">
+    <div class="container revelar">
+      <div class="sobretitulo">Marcas, agências e campanhas</div>
+      <h2>Vamos transformar uma boa ideia em conteúdo que faça sentido para a sua marca?</h2>
+      <p>Produção de conteúdo, UGC, fotografia, modelo comercial e campanhas. Base em Araranguá, Santa Catarina, com disponibilidade para projetos e viagens em todo o Brasil.</p>
+      <div class="acoes-contato"><a class="botao primario" href="https://wa.me/5548998170835?text=Ol%C3%A1%2C%20Tainara!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto%20para%20nossa%20marca." target="_blank" rel="noopener">Conversar pelo WhatsApp</a><a class="botao claro" href="mailto:tainarademarchugc@gmail.com">Enviar e-mail</a><a class="botao claro" href="assets/docs/midia-kit-tainara-demarch.pdf" target="_blank" rel="noopener">Baixar mídia kit</a></div>
+      <div class="contatos-sociais"><a href="https://instagram.com/tainarademarch" target="_blank" rel="noopener">Instagram @tainarademarch</a><a href="https://www.tiktok.com/@tainara.demarch" target="_blank" rel="noopener">TikTok @tainara.demarch</a><span>tainarademarchugc@gmail.com</span></div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="container rodape-grade"><div><div class="nome-rodape">Tainara Demarch</div><p>Criadora de conteúdo • Modelo comercial • UGC • Presença digital</p><div class="rodape-mini">Araranguá, Santa Catarina • Brasil</div></div><div class="links-rodape"><a href="https://instagram.com/tainarademarch" target="_blank" rel="noopener">Instagram @tainarademarch</a><a href="https://www.tiktok.com/@tainara.demarch" target="_blank" rel="noopener">TikTok @tainara.demarch</a><a href="mailto:tainarademarchugc@gmail.com">tainarademarchugc@gmail.com</a></div></div></footer>
+
+<div class="visualizador" id="visualizador" aria-hidden="true"><button class="fechar-visualizador" id="fecharVisualizador" aria-label="Fechar imagem">×</button><img id="imagemAmpliada" alt="Imagem ampliada do portfólio" /><div class="legenda-visualizador" id="legendaVisualizador"></div></div>
+
+<script>
+  const nav=document.getElementById('nav');const botaoMenu=document.getElementById('botaoMenu');const linksNav=document.getElementById('linksNav');
+  addEventListener('scroll',()=>nav.classList.toggle('rolado',scrollY>10));
+  botaoMenu.addEventListener('click',()=>{const aberto=linksNav.classList.toggle('aberto');botaoMenu.setAttribute('aria-expanded',String(aberto));});
+  linksNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{linksNav.classList.remove('aberto');botaoMenu.setAttribute('aria-expanded','false');}));
+  if('IntersectionObserver' in window){const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visivel');obs.unobserve(e.target)}}),{threshold:.06});document.querySelectorAll('.revelar').forEach(el=>obs.observe(el));}else{document.querySelectorAll('.revelar').forEach(el=>el.classList.add('visivel'));}
+  const gradeVideos=document.getElementById('gradeVideos'),botaoMaisVideos=document.getElementById('botaoMaisVideos');
+  botaoMaisVideos.addEventListener('click',()=>{const aberto=gradeVideos.classList.toggle('aberto');botaoMaisVideos.textContent=aberto?'Mostrar menos':'Ver mais trabalhos';botaoMaisVideos.setAttribute('aria-expanded',String(aberto));});
+  const galeria=document.getElementById('mosaicoGaleria'),botaoGaleria=document.getElementById('botaoGaleria');
+  botaoGaleria.addEventListener('click',()=>{const aberto=galeria.classList.toggle('aberto');botaoGaleria.textContent=aberto?'Mostrar menos':'Ver galeria completa';botaoGaleria.setAttribute('aria-expanded',String(aberto));});
+  const visualizador=document.getElementById('visualizador'),imagemAmpliada=document.getElementById('imagemAmpliada'),legenda=document.getElementById('legendaVisualizador'),fecharBotao=document.getElementById('fecharVisualizador');
+  document.querySelectorAll('.mosaico button').forEach(b=>b.addEventListener('click',()=>{const img=b.querySelector('img');imagemAmpliada.src=img.src;imagemAmpliada.alt=img.alt;legenda.textContent=b.dataset.legenda||'';visualizador.classList.add('aberto');visualizador.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';}));
+  const fechar=()=>{visualizador.classList.remove('aberto');visualizador.setAttribute('aria-hidden','true');imagemAmpliada.src='';document.body.style.overflow='';};
+  fecharBotao.addEventListener('click',fechar);visualizador.addEventListener('click',e=>{if(e.target===visualizador)fechar();});addEventListener('keydown',e=>{if(e.key==='Escape')fechar();});
+</script>
+</body>
+</html>

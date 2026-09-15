@@ -1,0 +1,392 @@
+[
+  {
+    "file": "assets/docs/midia-kit-tainara-demarch.pdf",
+    "bytes": 1703428,
+    "sha256": "27849f45a9fce7f297d5868a3acd9f43792a6dde2fe75f89a181fb28fead3508"
+  },
+  {
+    "file": "assets/favicon.svg",
+    "bytes": 228,
+    "sha256": "9cf1916929534b0c7d82781663e707c89ea9e84cc9832d4efee41d22041b0836"
+  },
+  {
+    "file": "assets/images/beauty-lips.webp",
+    "bytes": 120356,
+    "sha256": "a3b63ce2f1ce0ec610febcac4a1ae3c3f8618027e4aaae5397deb3e50cd828dd",
+    "width": 1051,
+    "height": 1577,
+    "curation": "A",
+    "reason": "Destaque editorial"
+  },
+  {
+    "file": "assets/images/behind-scenes-1.webp",
+    "bytes": 79948,
+    "sha256": "b1e2c11f54f961112f572d36db0d2f18250ed2c156a981c6f388226a388ad4f2",
+    "width": 1199,
+    "height": 1800,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/images/behind-scenes-2.webp",
+    "bytes": 89558,
+    "sha256": "de2e9fb46569f4f539435e6ceea59f9e99f01ec8f86502b3d507e7fff1505d9e",
+    "width": 1199,
+    "height": 1800,
+    "curation": "C",
+    "reason": "Enquadramento semelhante; preservado no acervo"
+  },
+  {
+    "file": "assets/images/capa-tainara-demarch.webp",
+    "bytes": 127376,
+    "sha256": "42f2c047e2b5cf8e9d5edad38633886b368d9f6d68be35d7afd287b53480f86e",
+    "width": 1066,
+    "height": 1600,
+    "curation": "A",
+    "reason": "Destaque editorial"
+  },
+  {
+    "file": "assets/images/compartilhamento-tainara.jpg",
+    "bytes": 121568,
+    "sha256": "2c7c2ac293b213e59fdf74895a372567f85f1f77a4d1feaa9c974f966cf6ae4c",
+    "width": 1200,
+    "height": 630,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/images/eyewear-black.webp",
+    "bytes": 90690,
+    "sha256": "704f253f0d993d407c5b2e5fc31521b7d51d60b3f325edf84beaae2eb39da5c6",
+    "width": 1199,
+    "height": 1800,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/images/eyewear-light.webp",
+    "bytes": 82802,
+    "sha256": "a4ba591a6f457e86631106359817032d8bd2d35beb586773ec3eb4832b863335",
+    "width": 1200,
+    "height": 1800,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/images/fashion-pink.webp",
+    "bytes": 117966,
+    "sha256": "59a43e3bfceea0aa152199b9e33e89ca8d066a316bdf3a2b77f498b78463d3dd",
+    "width": 1199,
+    "height": 1800,
+    "curation": "A",
+    "reason": "Destaque editorial"
+  },
+  {
+    "file": "assets/images/fashion-street-1.webp",
+    "bytes": 470534,
+    "sha256": "f045e914ae6e3383dfcfc35de5c9b34a27ab4984c36a4152f59c43dc6d1c6f70",
+    "width": 1199,
+    "height": 1800,
+    "curation": "C",
+    "reason": "Enquadramento semelhante; preservado no acervo"
+  },
+  {
+    "file": "assets/images/fashion-street-2.webp",
+    "bytes": 465916,
+    "sha256": "0655476f167356b28a164a417b4bc36ace4f28dd7ea36b29db4d402d3ab9c97d",
+    "width": 1199,
+    "height": 1800,
+    "curation": "C",
+    "reason": "Enquadramento semelhante; preservado no acervo"
+  },
+  {
+    "file": "assets/images/lifestyle-wine.webp",
+    "bytes": 131518,
+    "sha256": "1d9729d59f0082bb8146803d21faff5fcfe9ba835da83cc3afa2a79a1ddb8ec5",
+    "width": 1199,
+    "height": 1800,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/images/nova-01-moda-urbana.webp",
+    "bytes": 304540,
+    "sha256": "927003898d6f2037dfd6f07765338684ab069a0e742ac50260c60babf3180715",
+    "width": 1066,
+    "height": 1600,
+    "curation": "A",
+    "reason": "Destaque editorial"
+  },
+  {
+    "file": "assets/images/nova-02-moda-urbana.webp",
+    "bytes": 351054,
+    "sha256": "66b3d7d655410039c1cfeaf187cf4084360ac05f5856e090a40652759a383f16",
+    "width": 1066,
+    "height": 1600,
+    "curation": "C",
+    "reason": "Enquadramento semelhante; preservado no acervo"
+  },
+  {
+    "file": "assets/images/nova-03-moda-urbana.webp",
+    "bytes": 336718,
+    "sha256": "674cbff47390380e9f878aa8e346cf3a87f0ac2f3d14d025d31f23043dba1145",
+    "width": 1068,
+    "height": 1600,
+    "curation": "C",
+    "reason": "Enquadramento semelhante; preservado no acervo"
+  },
+  {
+    "file": "assets/images/nova-04-otica-cafe.webp",
+    "bytes": 143194,
+    "sha256": "a8803d7b3fe2605a975b8db57c05489041cc0374ec0f10d924a7e0a008f95c08",
+    "width": 1066,
+    "height": 1600,
+    "curation": "A",
+    "reason": "Destaque editorial"
+  },
+  {
+    "file": "assets/images/nova-05-otica-jornal.webp",
+    "bytes": 133172,
+    "sha256": "6bd8ea45c0836c93e0b881b878c98bc4428ce77f1d033c9296abcc322e12e483",
+    "width": 1066,
+    "height": 1600,
+    "curation": "A",
+    "reason": "Destaque editorial"
+  },
+  {
+    "file": "assets/images/nova-06-moda-cafe.webp",
+    "bytes": 143594,
+    "sha256": "8ed707f221f99e067b4671ce71438b9bb945afc8451087d4d1b0587acdb008fa",
+    "width": 1066,
+    "height": 1600,
+    "curation": "C",
+    "reason": "Enquadramento semelhante; preservado no acervo"
+  },
+  {
+    "file": "assets/images/nova-07-oculos-close.webp",
+    "bytes": 180994,
+    "sha256": "32d8bc15b8dc4c1912d36c941dc981ed92e08f94b82aa92577f942b7f33105f2",
+    "width": 1066,
+    "height": 1600,
+    "curation": "A",
+    "reason": "Destaque editorial"
+  },
+  {
+    "file": "assets/images/nova-08-lifestyle-notebook.webp",
+    "bytes": 106974,
+    "sha256": "60f40133b2eea647e4b688d3be3a3370c356fb4f9ca073c74b8afd164ef7ef90",
+    "width": 1066,
+    "height": 1600,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/images/nova-09-lifestyle-cafe.webp",
+    "bytes": 109974,
+    "sha256": "4fcf18d38ef4c66399a509244e51521a28cb6c9677c0ae9fc30613d3654f25bd",
+    "width": 1066,
+    "height": 1600,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/images/nova-10-lifestyle-vermelho.webp",
+    "bytes": 130860,
+    "sha256": "ff48003253c90c8f18059a84a20d70169959a6e0aa222b94a5312c047df3453c",
+    "width": 1066,
+    "height": 1600,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/images/nova-11-lifestyle-vermelho.webp",
+    "bytes": 94790,
+    "sha256": "ee136af22bac33d17c9c77122ba9a181fd0c80b9e36ba9fb0df331eec24e1a90",
+    "width": 1066,
+    "height": 1600,
+    "curation": "C",
+    "reason": "Enquadramento semelhante; preservado no acervo"
+  },
+  {
+    "file": "assets/images/nova-12-oculos-duplo.webp",
+    "bytes": 173488,
+    "sha256": "7da0edecd6606a3c28b80e33326257cbe1051f0a5275bb27975d32237e27e92c",
+    "width": 1066,
+    "height": 1600,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/images/nova-13-cafe-editorial.webp",
+    "bytes": 190204,
+    "sha256": "e3b2c69eaa269c951a3825bf6fe7a04f2dbe16c0ba5b5f000673475e8f31c038",
+    "width": 1066,
+    "height": 1600,
+    "curation": "A",
+    "reason": "Destaque editorial"
+  },
+  {
+    "file": "assets/images/nova-14-criacao-estudio.webp",
+    "bytes": 62140,
+    "sha256": "c0c7b8beeeee963d7908a80f2b8522e7e0503e756819a7724ff1d8d566bb2c75",
+    "width": 1066,
+    "height": 1600,
+    "curation": "C",
+    "reason": "Enquadramento semelhante; preservado no acervo"
+  },
+  {
+    "file": "assets/images/nova-16-criacao-estudio.webp",
+    "bytes": 104934,
+    "sha256": "a32d5811e5a57a47a27a3013ce385fc01765266228f87a3b51d1cbff61acab3f",
+    "width": 1066,
+    "height": 1600,
+    "curation": "A",
+    "reason": "Destaque editorial"
+  },
+  {
+    "file": "assets/images/nova-17-retrato-sorrindo.webp",
+    "bytes": 119858,
+    "sha256": "2175baf92c2ac3cd646806ddf3a94c0b39b472b1f4e70a0b4aceb899fad47176",
+    "width": 1066,
+    "height": 1600,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/images/portrait-hero.webp",
+    "bytes": 247276,
+    "sha256": "8c004f00c39409209fb38773b1e9df83307ff2bb397f9853e131a372a8290fc2",
+    "width": 1199,
+    "height": 1800,
+    "curation": "A",
+    "reason": "Destaque editorial"
+  },
+  {
+    "file": "assets/posters/couple-lifestyle.jpg",
+    "bytes": 52258,
+    "sha256": "73371cefd609a8696118d2177e202c1c780f396b5d1c2f1f02b253c4846e9585",
+    "width": 720,
+    "height": 1280,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/posters/cuidados-cabelo-ugc-v2.jpg",
+    "bytes": 34656,
+    "sha256": "63b6b4df6d51d1d84c873b68646df8a74a4d8fa5a2f6481f3e889eeb27f9ca3b",
+    "width": 720,
+    "height": 1280,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/posters/joias-estilo.jpg",
+    "bytes": 56351,
+    "sha256": "926f96dd12ee816f77707c085cead9cb0c0042c33a4dd63b99e77bc0754c654f",
+    "width": 720,
+    "height": 1280,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/posters/otica-visual-conteudo.jpg",
+    "bytes": 108871,
+    "sha256": "936298837741955a699245ac26d8d0c9cf005f4d299bc4600e8730bbf5f9598e",
+    "width": 720,
+    "height": 1280,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/posters/product-experience.jpg",
+    "bytes": 65962,
+    "sha256": "26c04b6feb734d4e5f40bf48c24589ec80a00bfdbe9752f674d24b834313bed5",
+    "width": 720,
+    "height": 1280,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/posters/rotina-gastronomia.jpg",
+    "bytes": 74033,
+    "sha256": "453db2b21819ca2dcabbed0296922f7c63e17651a81b736ac000b0393acd719e",
+    "width": 720,
+    "height": 1280,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/posters/talking-head-ad.jpg",
+    "bytes": 49286,
+    "sha256": "673385e97cfeb612f0c58e30d37b2b5b2d7d6624a59d8e566f254b6dfd88a34c",
+    "width": 720,
+    "height": 1280,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/posters/video-apresentacao.jpg",
+    "bytes": 45760,
+    "sha256": "19892b51c43da6f9ae0bd8697f97ec42277e25c9363a6e4b1d6d82545df30b1b",
+    "width": 720,
+    "height": 1280,
+    "curation": "B",
+    "reason": "Apoio e variedade de linguagem"
+  },
+  {
+    "file": "assets/videos/couple-lifestyle.mp4",
+    "bytes": 3350153,
+    "sha256": "0fc2c6bd87ddf5f46e31834a8804faa96ac5ec247018add6617b0a0b4fbfbcfc",
+    "curation": "B",
+    "reason": "Vídeo vertical 720p, preservado sem upscale; amostras visuais revisadas"
+  },
+  {
+    "file": "assets/videos/cuidados-cabelo-ugc-v2.mp4",
+    "bytes": 5117353,
+    "sha256": "c22b68b54789eabda5485b6c9a27d0051e5ab2bd7e1bc3ea9f6b872c24f66118",
+    "curation": "A",
+    "reason": "Vídeo vertical 720p, preservado sem upscale; amostras visuais revisadas"
+  },
+  {
+    "file": "assets/videos/joias-estilo.mp4",
+    "bytes": 5432699,
+    "sha256": "37397d658a205fa215bfc3e62704aba13a4f48de9fc71eacc53fff31c62ad35b",
+    "curation": "A",
+    "reason": "Vídeo vertical 720p, preservado sem upscale; amostras visuais revisadas"
+  },
+  {
+    "file": "assets/videos/otica-visual-conteudo.mp4",
+    "bytes": 2120590,
+    "sha256": "f203eadf133f712fa50345674e57ec46634c4e7b4eb9f959d13ad97cd7da6cb2",
+    "curation": "A",
+    "reason": "Vídeo vertical 720p, preservado sem upscale; amostras visuais revisadas"
+  },
+  {
+    "file": "assets/videos/product-experience.mp4",
+    "bytes": 2561582,
+    "sha256": "bfac3290b1c9c85be921c88b45ae7d9f020c7f62ac6044fa4a6b20bc5b33ce03",
+    "curation": "B",
+    "reason": "Vídeo vertical 720p, preservado sem upscale; amostras visuais revisadas"
+  },
+  {
+    "file": "assets/videos/rotina-gastronomia-portfolio.mp4",
+    "bytes": 4995521,
+    "sha256": "6ab2565b356c1aea5fc7db59201f3eeeafa2ed0581e810d11b74bf56a6599144",
+    "curation": "B",
+    "reason": "Vídeo vertical 720p, preservado sem upscale; amostras visuais revisadas"
+  },
+  {
+    "file": "assets/videos/talking-head-ad.mp4",
+    "bytes": 5265464,
+    "sha256": "6903db52abee6bbd2e7671f33792925445ec8bc62d371449a17fcf07ad03e4d3",
+    "curation": "B",
+    "reason": "Vídeo vertical 720p, preservado sem upscale; amostras visuais revisadas"
+  },
+  {
+    "file": "assets/videos/video-apresentacao.mp4",
+    "bytes": 4987164,
+    "sha256": "6f4d871f0c55e4c2785ceed1ae1eb83905957552c01360b222dceecd52a3a55f",
+    "curation": "A",
+    "reason": "Vídeo vertical 720p, preservado sem upscale; amostras visuais revisadas"
+  }
+]

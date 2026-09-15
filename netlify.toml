@@ -1,0 +1,19 @@
+[build]
+  command = "node scripts/export-netlify.mjs"
+  publish = "netlify-dist"
+
+[[headers]]
+  for = "/data/metrics.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"

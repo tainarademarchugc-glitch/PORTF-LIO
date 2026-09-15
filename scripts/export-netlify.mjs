@@ -1,0 +1,17 @@
+import {build} from 'vite';
+import react from '@vitejs/plugin-react';
+import {resolve} from 'node:path';
+import {mkdir,readFile,writeFile,rm,cp,readdir} from 'node:fs/promises';
+import {pathToFileURL} from 'node:url';
+const root=process.cwd(),out=resolve(root,'netlify-dist'),ssr=resolve(root,'.sites-runtime/netlify-ssr');
+const common={configFile:false,root,resolve:{alias:{'@':root}},plugins:[react()],logLevel:'warn'};
+await build({...common,publicDir:false,build:{ssr:'scripts/netlify-render.tsx',outDir:ssr,emptyOutDir:true,rollupOptions:{output:{entryFileNames:'render.mjs'}}}});
+const {render}=await import(pathToFileURL(resolve(ssr,'render.mjs')).href);
+const body=render();
+const tmp=resolve(root,'.sites-runtime/netlify-entry.html');
+await mkdir(resolve(root,'.sites-runtime'),{recursive:true});
+await writeFile(tmp,`<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tainara Demarch | Criadora de Conteúdo, UGC e Modelo Comercial</title><meta name="description" content="Naturalidade de creator e experiência de modelo comercial. Conheça os trabalhos de Tainara Demarch em beleza, moda, joias, eyewear e lifestyle. Araranguá, SC."><meta name="theme-color" content="#622a35"><link rel="canonical" href="https://tainarademarch.netlify.app/"><link rel="icon" href="/assets/favicon.svg"><meta property="og:type" content="website"><meta property="og:locale" content="pt_BR"><meta property="og:title" content="Tainara Demarch | Criadora de Conteúdo, UGC e Modelo Comercial"><meta property="og:description" content="Naturalidade de creator e experiência de modelo comercial. Beleza, moda e lifestyle."><meta property="og:url" content="https://tainarademarch.netlify.app/"><meta property="og:image" content="https://tainarademarch.netlify.app/assets/images/compartilhamento-tainara.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Tainara Demarch | Criadora de Conteúdo, UGC e Modelo Comercial"><meta name="twitter:description" content="Naturalidade de creator e experiência de modelo comercial. Beleza, moda e lifestyle."><meta name="twitter:image" content="https://tainarademarch.netlify.app/assets/images/compartilhamento-tainara.jpg"></head><body><div id="root">${body}</div><script type="module" src="/scripts/netlify-entry.tsx"></script><script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@type':'Person',name:'Tainara Demarch',url:'https://tainarademarch.netlify.app/',jobTitle:'Criadora de conteúdo e modelo comercial'})}</script></body></html>`);
+await build({...common,publicDir:'public',build:{outDir:out,emptyOutDir:true,rollupOptions:{input:tmp}}});
+const html=await readFile(resolve(out,'.sites-runtime/netlify-entry.html'),'utf8');await writeFile(resolve(out,'index.html'),html);await rm(resolve(out,'.sites-runtime'),{recursive:true,force:true});
+await cp(resolve(root,'netlify.toml'),resolve(out,'netlify.toml'));
+console.log('Exportação Netlify concluída: '+out);

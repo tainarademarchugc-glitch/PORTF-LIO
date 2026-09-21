@@ -1,6 +1,5 @@
 [build]
-  command = "node scripts/export-netlify.mjs"
-  publish = "netlify-dist"
+  publish = "."
 
 [[headers]]
   for = "/data/metrics.json"
